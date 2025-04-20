@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             JumboTestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Jumbo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
